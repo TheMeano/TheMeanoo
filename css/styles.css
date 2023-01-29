@@ -1,0 +1,144 @@
+/********************************************* TAG SELECTOR *************************************/
+
+body {
+    /* background-color: #01071c; */
+    background-image: url(https://cdn.shopify.com/s/files/1/0251/4282/0900/t/5/assets/town.gif?v=108857707323677471261664574368);
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    width: 95%;
+}
+
+h1 {
+   font-size: 450%; 
+   margin-bottom: 6%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/********************************************* CLASS SELECTOR *************************************/
+
+.NavBar {
+    height: 10.5%;
+    width: 86%;
+     /* border-style: solid;  
+    border-color: white;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Nav-content {
+    display: inline-block;
+    margin-top: 8%;
+    font-size: large;
+}
+
+.Col-2 {
+    height: 10.5%;
+    width: 33%;
+    /* border-style: solid; 
+    border-color: white; */
+    margin-right: 0;
+    position: absolute;
+    right: 11.1%;
+    top: 1%;
+    text-align:center;
+}
+
+.BG-grads {
+    height: 60%;
+    width: 33%;
+    background-color: #8f8bce;
+    position: absolute;
+    top: -39%;
+    left: 19%; 
+    filter: blur(120px); 
+    border-radius: 100%;
+    opacity: 53%;
+}
+
+.Headsection {
+    width: 86%;
+    height:auto ;
+    /* border-style: solid; 
+    border-color: white;*/
+    margin-top: 6.25%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Head-Content {
+    width: 43%;
+    height: auto;
+    /* border-style: solid; 
+    border-color: white;*/
+    text-align: center;
+    line-height: 1.1;
+}
+
+.Head-Img {
+    width: 30%;
+    height: 57%;
+    position: absolute;
+    right: 14%;
+    top: 14%;
+    /* border-style: solid; 
+    border-color: white;*/
+}
+
+.Button {
+    background-color: #8f8bce;
+    height: 40px;
+    width: 33%;
+    padding-top: 3.2%;
+    margin-top: 6%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20px;
+    font-weight: 550;
+    text-transform: uppercase;
+    transition: background-color 350ms ease, color 350ms ease, font-weight 100ms ease;
+}
+
+.Button:hover {
+    background-color: #B7F8F9;
+    color: black;
+    font-weight: 600;
+}
+
+/********************************************* ID SELECTOR *************************************/
+
+#Melero {
+    font-weight: 590;
+    font-size: 230%;
+    margin-top: 1.8%;
+    display: inline-block;
+}
+
+#Contact {
+    position: absolute;
+    right: 1%;
+}
+
+#Contact:hover {
+    color: darkslategrey;
+}
+
+#About {
+    position: absolute;
+    left: 1%;
+}
+
+#About:hover {
+    color: darkslategray;
+}
+
+#Hire-us {
+    color: white;
+}
+
+#Hire-us:hover {
+    color: darkslategray;
+}
